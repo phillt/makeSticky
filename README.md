@@ -1,6 +1,6 @@
-# makeSticky 0.0.1
+# makeSticky 0.0.2
 
-Another sticky headers plugin!? WTF! Well, there is one thing this solves and that's horizontal scrolling.
+Another sticky headers plugin!? WTF! Well, there is one thing this solves and that's horizontal scrolling. Please note, this is a work in progress. Current Master works.
 
 ## Why?
 
@@ -54,4 +54,12 @@ It's kind of a jerk... Well when you scroll down slowly it jerks. A lot. So to e
 
 Oh what? CSS3? I know what you're thinking: *You shouldn't be using CSS3, not all browsers support it.* Okay, sir, sit down. Chrome and Safari use it and guess what, those are the only browsers that mobile user use and THIS PLUGIN IS FOR MOBILE. Stop judging man, let me finish this documentation.
 
-This is where you come in. Lets fix this thing and keep if from jerking.  
+This is where you come in. Lets fix this thing and keep if from jerking.
+
+
+### Installing:
+
+Use this github or you can use [Jam](http://jamjs.org), a **CML package manager** for JavaScript:
+
+    jam install makeSticky
+
