@@ -7,16 +7,18 @@
     "jquery",
     "jqueryui",
     "sticky header",
-    "plugin"
+    "plugin",
+    "fixed"
   ],
+  "categories" : [
+    "Effects",
+     "UI"
+     ],
   "jam": {
     "dependencies": {
       "jquery": ">1.9"
     },
-    "main": "makeSticky.js",
-    "shim": {
-      "deps": ["jquery"]
-    }
+    "main": "makeSticky.js"
   },
   "maintainers" : [
     {
@@ -28,7 +30,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
   "repositories": [

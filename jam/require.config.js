@@ -6,19 +6,13 @@ var jam = {
             "main": "dist/jquery.js"
         },
         {
-            "name": "jquery-ui-core",
-            "location": "jam/jquery-ui-core",
-            "main": "jquery-ui-1.10.2.custom.js"
+            "name": "makeSticky",
+            "location": "jam/makeSticky",
+            "main": "makeSticky.js"
         }
     ],
     "version": "0.2.17",
-    "shim": {
-        "jquery-ui-core": {
-            "deps": [
-                "jquery"
-            ]
-        }
-    }
+    "shim": {}
 };
 
 if (typeof require !== "undefined" && require.config) {
@@ -30,18 +24,12 @@ if (typeof require !== "undefined" && require.config) {
             "main": "dist/jquery.js"
         },
         {
-            "name": "jquery-ui-core",
-            "location": "jam/jquery-ui-core",
-            "main": "jquery-ui-1.10.2.custom.js"
+            "name": "makeSticky",
+            "location": "jam/makeSticky",
+            "main": "makeSticky.js"
         }
     ],
-    "shim": {
-        "jquery-ui-core": {
-            "deps": [
-                "jquery"
-            ]
-        }
-    }
+    "shim": {}
 });
 }
 else {
@@ -53,18 +41,12 @@ else {
             "main": "dist/jquery.js"
         },
         {
-            "name": "jquery-ui-core",
-            "location": "jam/jquery-ui-core",
-            "main": "jquery-ui-1.10.2.custom.js"
+            "name": "makeSticky",
+            "location": "jam/makeSticky",
+            "main": "makeSticky.js"
         }
     ],
-    "shim": {
-        "jquery-ui-core": {
-            "deps": [
-                "jquery"
-            ]
-        }
-    }
+    "shim": {}
 };
 }
 
