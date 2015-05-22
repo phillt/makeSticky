@@ -1,0 +1,21 @@
+{
+  "name": "makeSticky",
+  "version": "0.0.1",
+  "description": "Sticky Headers Plugin",
+  "homepage": "http://jqueryui.com/",
+  "keywords": [
+    "jquery",
+    "jqueryui",
+    "sticky header",
+    "plugin"
+  ],
+  "jam": {
+    "dependencies": {
+      "jquery": ">1.9"
+    },
+    "main": "makeSticky.js",
+    "shim": {
+      "deps": ["jquery"]
+    }
+  }
+}
